@@ -4,6 +4,10 @@ void main() {
   int bananas;
   double preco = 10.50;
   bool aindaTem = true;
+
+  //static nome1 = 'Maycon Francisco' //Atributo estatico da classe - acessar sem instanciar objeto com o no JAVA
+  //const numero1 = 3 //constante - nao poderei alterar o valor - esse eh um atributo em tempo de compilacao - ao compilar substituira todos os numero1 por 3
+  //final Pessoa xico = new Pessoa(); - nao poderei alterar o valor - esse eh um atributo de tempo de execucao - assim que passar por ai nao poderei mais alterar o ponteiro
   
   print(nome);
   print('O nome da Loja é: ' + nome);
