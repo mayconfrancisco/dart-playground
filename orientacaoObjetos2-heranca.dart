@@ -1,4 +1,5 @@
-class Animal {
+//Classe abstrata - nao posso instanciar um novo objeto mas posso definir metodos com apenas a assinatura e o devo implementar nas classes que herdam - exatamente como no Java
+abstract class Animal {
   static int campoEstaticoExemplo = 10;
   String nome;
   double peso;
@@ -72,9 +73,9 @@ void main() {
   const num1 = 3;
   // num1 = 4; //error
   //FINAL
-  final Animal animal = Animal('Tomba', 2.99);
-  print(animal.nome);
-  animal.nome = 'Tomba2';
-  print(animal.nome);
+  // final Animal animal = Animal('Tomba', 2.99);
+  // print(animal.nome);
+  // animal.nome = 'Tomba2';
+  // print(animal.nome);
   // animal = new Animal('Tomba3', 3.33); //Error
 }
